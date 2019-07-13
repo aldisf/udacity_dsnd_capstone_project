@@ -7,6 +7,7 @@ In this analysis, we will analyze the offers, transaction and profile demographi
 The goal of this notebook is to identify a way to better make decision on whether someone should be a target of a particular marketing offer. An ideal candidate should both `view` and `complete` the offer once it has been sent. 
 
 Medium post for this analysis: 
+
 https://medium.com/@aldistefanusfelim/who-will-buy-more-coffee-an-analysis-of-starbucks-promotional-offers-fa14077a7e6d
 
 # 1. Introduction
