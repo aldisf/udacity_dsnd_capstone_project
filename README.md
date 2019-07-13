@@ -6,6 +6,9 @@ In this analysis, we will analyze the offers, transaction and profile demographi
 
 The goal of this notebook is to identify a way to better make decision on whether someone should be a target of a particular marketing offer. An ideal candidate should both `view` and `complete` the offer once it has been sent. 
 
+Medium post for this analysis: 
+https://medium.com/@aldistefanusfelim/who-will-buy-more-coffee-an-analysis-of-starbucks-promotional-offers-fa14077a7e6d
+
 # 1. Introduction
 
 This data set contains simulated data that mimics customer behavior on the Starbucks rewards mobile app. Once every few days, Starbucks sends out an offer to users of the mobile app. An offer can be merely an advertisement for a drink or an actual offer such as a discount or BOGO (buy one get one free). Some users might not receive any offer during certain weeks. 
