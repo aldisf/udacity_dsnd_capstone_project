@@ -68,10 +68,18 @@ You will need the following python packages to run this notebook:
 
 1. Whether or not a particular offer will be viewed by the recipient depends far more heavily on the distribution channel that was used. This was concluded when offers disseminated to similar demographic target groups while having different distribution channel turned out to have a wide gap in the view rate. Social media channels are particularly very important, as we are seeing the view rate suffer for offers that were not distributed via social media channel.
 
+
+<img src='imgs/viewed_table.png'>
+
+
+
 2. Two models are produced in this analysis: 
     - Simpler, baseline model that only takes into account the target's demographic features (Gender, Income and Age) to produce the probability that the person will complete the particular offer. Threshold were chosen by optimizing for f1-score. At the highest f1-score combination, the model has a 69% precision and 98% recall. 
     
     - A Random Forest classifier leveraging more features including transacted amounts and tenure. The model has an average improvement of around 10% in precision, yet this improvement diminishes at very high recall rates. 
+    
+    
+<img src='imgs/pr_lift.png'>
     
 Choosing between these two models will depend on whether the best marketing strategy is best obtained through maximizing recall or whether the perceived cost of sending a wasted offer is deemed as too high so that a higher precision is needed. 
 
